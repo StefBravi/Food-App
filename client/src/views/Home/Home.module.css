@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+.body, html {
+  background-color: #b4c4ae; /* Cambia este valor al color deseado */
+  height: 100%
+}
+
+.title{
+    color: green;
+    position: relative;
+    top: 0cm;
+    /* left: -1cm; */
+    font-family: 'Allura', cursive;
+    font-size: 70px;
+}
+
+.card { /* Este es el contenedr de las Cards */
+  flex: 0 0 calc(50% - 10px);
+  background-color: #d8e9ed;
+  width:70%;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card img {    /* sirve para modificar la imagen de las card */
+  width: 70%; 
+  height: 170px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.buttonContainer{
+  display: flex;
+  justify-content: flex-start;
+}
+.reload{
+  position: relative;
+  top: -15px;
+  padding: 2px;
+  border: 1px solid #b7df30;
+  border-radius: 4px;
+  left: -15px;
+}
+
+.reload:hover {
+  background-color: green;
+  color: white;
+}
+.searchBar{
+  position: relative;
+  top: -20px;
+}
+
+.searchBar input{
+  transform: translateY(-15px);
+}
+
+.recharge{
+  padding: 2px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+.orderAsc{
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.healthScore{
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.apiBdd{
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.diet{
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+/* .card .diets {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+} */
+
+/* .card .diets span {
+  background-color: #f2f2f2;
+  padding: 2px 6px;
+  border-radius: 5px;
+  font-size: 12px;
+} */
+
+/* .card .diets span.gluten-free {
+  background-color: #8bc34a;
+  color: white;
+} */
+.gridContainer { /* Esto es para las columnas */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}

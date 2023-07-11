@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Titan+One&display=swap');
+
+.container {
+    background-image: url("./Landing.jpg");
+    height: 100vh;    
+    margin-bottom: -1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+  
+
+  .title {
+    color: green;
+    position: relative;
+    top: -2cm;
+    left: -1cm;
+    font-family: 'Allura', cursive;
+    font-size: 60px;
+  }
+  
+  .container button {
+    padding: 10px 20px;
+    background-color: #11BF29;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top:-2.5cm;
+    left:-1cm;    
+    border-radius:20px;
+    font-family: 'Gloria Hallelujah', cursive;
+  }
+

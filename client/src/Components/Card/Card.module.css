@@ -1,0 +1,12 @@
+.detail button {
+    border: none;
+    background-color: #70986e;
+    color: #fff;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .detail button:hover {
+    background-color: #0056b3;
+  }

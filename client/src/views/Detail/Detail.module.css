@@ -1,0 +1,58 @@
+.image {
+  border-radius: 20px;
+}
+
+.container {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .recipe-details__Id {
+    font-size: 16px;
+    color: #141614;
+  }
+  
+  .recipe-details__name {
+    font-size: 20px;
+    color: #0c7615;
+  }
+
+  .recipe-summary {
+    font-size: 16px;
+    color: #141614;
+  }
+
+  .recipe-summary {
+    font-size: 16px;
+    color: #141614;
+  }
+
+  .recipe-healthScore {
+    font-size: 16px;
+    color: #141614;
+  }
+
+  .recipe-steps {
+    font-size: 16px;
+    color: #141614;
+  }
+
+  .recipe-diets {
+    font-size: 16px;
+    color: #141614;
+  }  
+  
+  .button {
+    padding: 8px 12px;
+    background-color: #0c7615;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
